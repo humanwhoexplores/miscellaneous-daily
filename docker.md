@@ -32,6 +32,7 @@ docker run --rm -ti ubuntu:latest bash -c "sleep 5 ; echo done"
 
 ### 6.) running in detached mode 
 docker run -d ubuntu:latest 
+ex. running the node web-server in  detached mode.
 
 ### 7.) Stopping a container V/S removing a container
 docker kill <container id / name> : stops the container
@@ -50,3 +51,5 @@ Till the time I am in the container:  the container was running : as soon as i e
 docker logs <contaner-id / name>
 
 ### 9.) docker inspect <container-id>
+
+### 10.) docker build -t <name-of-imae> <path-to-dockerfile>
